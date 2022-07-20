@@ -15,7 +15,6 @@ const Home: NextPage = () => {
       network: "rinkeby",
       extensions: [new ConnectExtension()],
     });
-    //const did = await magic.auth.loginWithMagicLink({ email: "uriel.quevedo@globant.com" });
     const web3 = new Web3(magic.rpcProvider);
 
     setMagic(magic);
