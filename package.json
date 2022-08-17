@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@imtbl/imx-sdk": "^1.22.3",
     "@magic-ext/connect": "0.1.6",
     "@magic-ext/oauth": "2.1.1",
     "@magic-sdk/types": "7.1.1",

@@ -64,23 +64,16 @@ const Home: NextPage = () => {
   };
 
   const login = async () => {
-    const magic = new Magic("pk_live_E7E27D428EC8F840", {
-      network: "rinkeby",
-      extensions: [new ConnectExtension()],
-    });
-    //const did = await magic.auth.loginWithMagicLink({ email: "uriel.quevedo@globant.com" });
-    const web3 = new Web3(magic.rpcProvider);
-
     web3.eth
       .getAccounts()
       .then((accounts) => {
-        console.log(accounts);
         setAccount(accounts?.[0]);
       })
       .catch((error) => {
         console.log(error);
       });
   };
+
   return (
     <div className="magicContainer">
       <h2>Magic Connect</h2>
