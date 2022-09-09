@@ -84,9 +84,9 @@ const Deposit: NextPage = () => {
       <h1>Demo for Deposit</h1>
       <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
         <p style={{ width: "50%" }}>
-          Es una demo sobre poder hacer depositos de Eths en immutable, hay dos
-          opciones, la principal, es con tajeta de credito y se utiliza una
-          integracion con Moonpay. La otra opcion, es depositar pero con
+          Es una demo sobre poder hacer depósitos de Eths en immutable, hay dos
+          opciones, la principal, es con tarjeta de crédito y se utiliza una
+          integración con Moonpay. La otra opción, es depositar pero con
           metamask.
         </p>
       </div>
@@ -177,7 +177,7 @@ const Deposit: NextPage = () => {
               </button>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <p style={{ textAlign: "center", width: "70%" }}>
-                  Necesitas tener eth en tu wallet para realizar esta operacion
+                  Necesitas tener eth en tu wallet para realizar esta operación.
                 </p>
               </div>
             </div>
