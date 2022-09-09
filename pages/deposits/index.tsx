@@ -27,10 +27,7 @@ const Deposit: NextPage = () => {
   const linkIframeOptions: ConfigurableIframeOptions = {
     className: "linkStyle",
   };
-  const link = new Link(
-    "https://link.ropsten.x.immutable.com",
-    linkIframeOptions
-  );
+  const link = new Link("https://link.ropsten.x.immutable.com");
 
   const getClientInfo = async () => {
     if (address) {
